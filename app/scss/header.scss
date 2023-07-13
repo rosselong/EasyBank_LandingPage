@@ -1,5 +1,6 @@
 .header {
-  position: relative;
+  width: 100%;
+  position: fixed;
   z-index: 1;
   //open humberger styles
   &.open {

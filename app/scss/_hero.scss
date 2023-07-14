@@ -1,8 +1,7 @@
 .hero {
-  background-color: $veryLightGray;
+  background-color: $verylightgrayish;
 
   .container {
-    overflow: hidden;
     @include breakpoint-up(large) {
       display: flex;
       align-items: center;
@@ -26,8 +25,9 @@
       flex: 3;
       order: 2;
       height: 41rem;
-      background-image: url("/images/bg-intro-desktop.svg");
-      background-position: left center;
+      background-image: none;
+      //background-image: url('/images/bg-intro-desktop.svg');
+      //background-position: left center;
     }
 
     &::before {

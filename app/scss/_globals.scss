@@ -1,6 +1,7 @@
 html {
   font-size: 100%;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 *,
 *::before,
@@ -15,7 +16,7 @@ body {
   font-weight: 300;
   color: $grayishblue;
   line-height: 1.3;
-  overflow-x: hidden;
+
   &.noscroll {
     overflow: hidden;
   }
